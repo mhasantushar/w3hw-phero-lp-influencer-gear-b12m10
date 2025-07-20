@@ -121,7 +121,7 @@
 /* Header and Nav Styles */
 
 header {
-    max-width: 1093px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -164,7 +164,10 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 80px;
 }
+
 .hero-block-left {
     max-width: 582px;
 }
@@ -200,6 +203,11 @@ nav a {
     background-image: url("../images/circle-design.svg");
 }
 
+/* Sponsor Section Styles */
+.sponsor-section {
+    max-width: 1110px;
+    margin: 0 auto;
+}
 
 /* ---------------------------------- */
 @media screen and (max-width: 576px) {
@@ -208,11 +216,19 @@ nav a {
         flex-direction: column;
     }
 
+    .brand-name {
+        text-align: center;
+    }
+
     nav li {
         visibility: hidden;
     }
 
-    .brand-name {
+    .hero-block-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .hero-block-left {
         text-align: center;
     }
 }
@@ -224,11 +240,19 @@ nav a {
         flex-direction: column;
     }
 
+    .brand-name {
+        text-align: center;
+    }
+
     nav li {
         visibility: hidden;
     }
 
-    .brand-name {
+    .hero-block-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .hero-block-left {
         text-align: center;
     }
 }
