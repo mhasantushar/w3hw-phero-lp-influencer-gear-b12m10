@@ -349,6 +349,10 @@ footer {
     width: 32px;
 }
 
+.img-go-gray {
+    filter: grayscale(100%)
+}
+
 /* ---------------------------------- */
 @media screen and (max-width: 576px) {
 
