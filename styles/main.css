@@ -315,8 +315,11 @@ nav a {
 footer {
     background-color: black;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+}
+
+.footer-sect {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .footer-title {
@@ -335,7 +338,14 @@ footer {
     line-height: 1.5rem;
 }
 
-.footer-icons {
+.footer-icon-wrapper {
+    margin-top: 18px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.footer-icon-wrapper img {
     width: 32px;
 }
 
