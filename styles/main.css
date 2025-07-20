@@ -165,32 +165,9 @@ nav a {
 /* ---------------------------------- */
 @media screen and (max-width: 576px) {
 
-    .head-wrapper {
-        flex-direction: column;
-    }
-
-    .brand-name {
-        text-align: center;
-    }
-
-    nav li {
-        visibility: hidden;
-    }
-
-    .hero-block-wrapper {
-        flex-direction: column-reverse;
-    }
-
-    .hero-block-left {
-        text-align: center;
-    }
-}
-
-/* ---------------------------------- */
-@media screen and (min-width: 576px) and (max-width: 992px) {
-
+    main,
     header,
-    main {
+    footer {
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -213,5 +190,44 @@ nav a {
 
     .hero-block-left {
         text-align: center;
+    }
+
+    .sponsor-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+/* ---------------------------------- */
+@media screen and (min-width: 576.001px) and (max-width: 992px) {
+
+    main,
+    header,
+    footer {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .head-wrapper {
+        flex-direction: column;
+    }
+
+    .brand-name {
+        text-align: center;
+    }
+
+    nav li {
+        visibility: hidden;
+    }
+
+    .hero-block-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .hero-block-left {
+        text-align: center;
+    }
+
+    .sponsor-wrapper {
+        flex-wrap: wrap;
     }
 }
