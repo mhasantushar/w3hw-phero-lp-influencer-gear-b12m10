@@ -258,7 +258,8 @@ nav a {
 
     main,
     header,
-    footer {
+    footer,
+    .pop-card-wrapper {
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -285,6 +286,10 @@ nav a {
 
     .sponsor-wrapper {
         flex-wrap: wrap;
+    }
+
+    .pop-card-wrapper {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -320,5 +325,9 @@ nav a {
 
     .sponsor-wrapper {
         flex-wrap: wrap;
+    }
+
+    .pop-card-wrapper {
+        grid-template-columns: 1fr 1fr;
     }
 }
