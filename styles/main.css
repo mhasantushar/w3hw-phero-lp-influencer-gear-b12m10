@@ -130,7 +130,8 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 5px;
-    margin: 80px 120px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .brand-name {
@@ -159,7 +160,45 @@ nav a {
 }
 
 /* Hero Banner Styles */
+.hero-block-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-block-left {
+    max-width: 582px;
+}
 
+.hero-header {
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 4.375rem;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.hero-copy {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.55rem;
+    color: #3A3A3A;
+    margin-bottom: 26px;
+}
+
+.hero-cta {
+    background-color: #E02C6D;
+    border-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+}
+
+.hero-image {
+    background-image: url("../images/circle-design.svg");
+}
 
 
 /* ---------------------------------- */
